@@ -12,7 +12,7 @@ return {
       local cmp = require("cmp")
 
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
-        ["<S-Space>"] = cmp.mapping({
+        ["<C-Space>"] = cmp.mapping({
           i = function()
             if cmp.visible() then
               cmp.abort()
