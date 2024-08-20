@@ -117,4 +117,10 @@ return {
       end
     end,
   },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      sources = { "filesystem" },
+    },
+  },
 }
